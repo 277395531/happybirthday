@@ -1,7 +1,7 @@
 # happybirthday
 
 #### Description
-给我的🐏宝宝的27岁生日祝福！
+27岁生日祝福！
 
 #### Software Architecture
 Software architecture description

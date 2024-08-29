@@ -41,7 +41,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#countdown 3||祝|我的宝贝|27岁生日快乐|工作顺利|身体健康|天天开心|paper+++|永远爱你！|#icon heart|#icon heart-empty|#icon heart');
+        S.UI.simulate('|#countdown 3||祝|WYL|生日快乐|天天开心|暴富暴美|平安健康|工作顺利|快乐万岁！|#icon heart|#icon heart-empty|#icon heart');
       }
 
       S.Drawing.loop(function () {
@@ -605,6 +605,7 @@ S.ShapeBuilder = (function () {
         callback(S.ShapeBuilder.letter('What?'));
       }
 
+      image.crossOrigin = '';
       image.src = url;
     },
 
